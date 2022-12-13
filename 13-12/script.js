@@ -7,9 +7,7 @@ function retornarAlvo(array , alvo) {
     array.forEach(x => {
         array.forEach(y => {
             if(x + y === alvo){
-                let posicao1 = array.indexOf(y)
-                let posicao2 = array.indexOf(x)
-                arrayPosicao = [posicao1, posicao2]
+                arrayPosicao = [array.indexOf(y), array.indexOf(x)]
             }
         })
     })
